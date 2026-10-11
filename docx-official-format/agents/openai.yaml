@@ -1,0 +1,6 @@
+interface:
+  display_name: "公文印制格式"
+  short_description: "按本地公文印制要求排版 Word 文档"
+  default_prompt: "Use $docx-official-format 把这份 Word 文档按本地公文印制要求排版。"
+policy:
+  allow_implicit_invocation: true
